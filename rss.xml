@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Forestry Gatsby Demo]]></title><description><![CDATA[This website is meant to demonstrate some of the features of Forestry's CMS and how it integrates with the Gatsby static site generator, but you are encouraged to copy it, hack on it, and make it your own!]]></description><link>https://poltak.github.io/forestry-blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 14 Nov 2019 02:47:53 GMT</lastBuildDate><item><title><![CDATA[About Gatsby]]></title><description><![CDATA[Gatsby is a static site generator built on the React JavaScript framework. Gatsby's purpose is to build fast, highly-optimized static sites…]]></description><link>https://poltak.github.io/forestry-blog/about-the-ssg/</link><guid isPermaLink="false">https://poltak.github.io/forestry-blog/about-the-ssg/</guid><content:encoded>&lt;p&gt;Gatsby is a static site generator built on the React JavaScript framework. Gatsby&apos;s purpose is to build fast, highly-optimized static sites.&lt;/p&gt;
+&lt;p&gt;One of Gatsby&apos;s biggest strengths is its ability to ingest data from multiple sources — files, databases, or APIs — and create pages from them during its build step.&lt;/p&gt;
+&lt;h2&gt;Gatsby Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/docs/&quot;&gt;GatsbyJS Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://forestry.io/docs/guides/developing-with-gatsby/&quot;&gt;Gatsby Developer Guide on Forestry.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Blog Demo]]></title><description><![CDATA[This is an example of an  index page.  You can add an index page to any directory in your content by adding a file with the name of  index…]]></description><link>https://poltak.github.io/forestry-blog/posts/</link><guid isPermaLink="false">https://poltak.github.io/forestry-blog/posts/</guid><content:encoded>&lt;p&gt;This is an example of an &lt;strong&gt;index page.&lt;/strong&gt; You can add an index page to any directory in your content by adding a file with the name of &lt;code&gt;index.md&lt;/code&gt; to the directory. Any body content you enter will appear in this area, and a list of posts in the directory will appear beneath it.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Home Page ]]></title><link>https://poltak.github.io/forestry-blog/</link><guid isPermaLink="false">https://poltak.github.io/forestry-blog/</guid><content:encoded></content:encoded></item><item><title><![CDATA[What is this?]]></title><description><![CDATA[You're currently viewing a demo site built with  GatsbyJS  and  Forestry . This website is meant to demonstrate some of the features of…]]></description><link>https://poltak.github.io/forestry-blog/about-the-demo/</link><guid isPermaLink="false">https://poltak.github.io/forestry-blog/about-the-demo/</guid><content:encoded>&lt;p&gt;You&apos;re currently viewing a demo site built with &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJS&lt;/a&gt; and &lt;a href=&quot;https://forestry.io&quot;&gt;Forestry&lt;/a&gt;. This website is meant to demonstrate some of the features of Forestry&apos;s CMS and how it integrates with the Gatsby static site generator, but you are encouraged to copy it, hack on it, and make it your own!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/about-the-ssg&quot;&gt;About Gatsby »&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Demo Features&lt;/h2&gt;
+&lt;p&gt;This demo is heavily influenced by Gatsby&apos;s &lt;a href=&quot;https://www.gatsbyjs.org/docs/adding-markdown-pages/&quot;&gt;tutorial for using markdown&lt;/a&gt; and Kyle Mathews&apos; &lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;gatsby-starter-blog&lt;/a&gt;. It is intended to serve as a starting point for developing markdown websites using Gatsby. Among its features are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pages created from markdown files&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;List&lt;/em&gt; and &lt;em&gt;single&lt;/em&gt; templates (add an &lt;code&gt;index.md&lt;/code&gt; file to a directory to create a list page for the directory&apos;s contents)&lt;/li&gt;
+&lt;li&gt;Styling with Sass and &lt;a href=&quot;https://bulma.io&quot;&gt;Bulma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;em&gt;blocks&lt;/em&gt; template to use with Forestry&apos;s &lt;a href=&quot;https://forestry.io/docs/settings/fields/blocks/&quot;&gt;blocks&lt;/a&gt; page builder capability.&lt;/li&gt;
+&lt;li&gt;CMS-friendly content strategy, such as defining main navigation items in a JSON file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;How to Use This With Forestry&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/forestryio/gatsby-starter-forestry&quot;&gt;Fork this repo to your GitHub, GitLab, or Bitbucket userspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://app.forestry.io/signup&quot;&gt;Sign up for a Forestry account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Add Site&lt;/strong&gt; button, connect to your Git provider, and select the repo you just forked to begin the import process.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alternatively, you can have Forestry copy and import this project for your with our &lt;a href=&quot;https://app.forestry.io/quick-start?repo=forestryio/gatsby-starter-forestry&amp;#x26;branch=master&amp;#x26;engine=gatsby&quot;&gt;quick start&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;About Forestry&lt;/h2&gt;
+&lt;p&gt;Forestry is a content management UI for static sites. Forestry currently supports Hugo, Jekyll, VuePress, and Gatsby, with support for more static site generators planned.&lt;/p&gt;
+&lt;p&gt;Forestry works by importing your static site from a cloud Git provider like GitHub, GitLab, or Bitbucket. You can then use our WYSIWYG and front matter UI to edit your markdown content and data files. When you save your content, Forestry creates a commit and pushes it back to your Git provider. This capability allows Forestry to be used alongside other workflows a team may be using to edit their static sites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://forestry.io&quot;&gt;Learn more at Forestry.io »&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that "despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://poltak.github.io/forestry-blog/posts/my-second-post/</link><guid isPermaLink="false">https://poltak.github.io/forestry-blog/posts/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that &quot;despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.&quot;?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn&apos;t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://poltak.github.io/forestry-blog/posts/hello-world/</link><guid isPermaLink="false">https://poltak.github.io/forestry-blog/posts/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/2b40c/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAcEAADAQACAwAAAAAAAAAAAAABESEAMUGBobH/2gAIAQEAAT8hsTTH2wx5gg2ZgM8d5JIfmMRAIe//2gAMAwEAAgADAAAAEMgv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAxIWGBQeH/2gAIAQEAAT8QRswtDR5g4a7R5C/RHFM3BKk6zThoVp3lEYcnjGIYES7/ACZ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a296c/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/f544b/salty_egg.jpg 200w,
+/static/8058f3f26913fea3b6a89a73344fe94a/41689/salty_egg.jpg 400w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a296c/salty_egg.jpg 800w,
+/static/8058f3f26913fea3b6a89a73344fe94a/c35de/salty_egg.jpg 1200w,
+/static/8058f3f26913fea3b6a89a73344fe94a/8179c/salty_egg.jpg 1600w,
+/static/8058f3f26913fea3b6a89a73344fe94a/2b40c/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
