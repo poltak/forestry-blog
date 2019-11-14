@@ -5,6 +5,7 @@ module.exports = {
   siteMetadata: {
     title: config.title,
     description: config.description,
+    siteUrl: 'https://poltak.github.io/forestry-blog',
     footer: config.footer,
   },
   plugins: [
