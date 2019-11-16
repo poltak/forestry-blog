@@ -32,7 +32,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0",
     "forestry:publish": "gatsby build --prefix-paths",

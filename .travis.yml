@@ -1,15 +1,21 @@
 language: node_js
 node_js:
   - 'lts/*'
-install:
-  - npm install
-script:
-  - npm run publish
+
 branches:
   only:
   - master
 notifications:
   email: false
+
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: pages:git
+  local_dir: public/
+
 env:
   - PATH_PREFIX=/forestry-blog
 
