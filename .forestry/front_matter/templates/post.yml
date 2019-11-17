@@ -9,5 +9,6 @@ fields:
   name: date
   label: Date
 pages:
+- src/pages/posts/another-test.md
 - src/pages/posts/hello-my-name-is-van.md
 - src/pages/posts/test.md
