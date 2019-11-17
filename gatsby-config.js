@@ -66,7 +66,7 @@ module.exports = {
       options: {
         name: `Van's blog`,
         short_name: `Van's blog`,
-        start_url: `/`,
+        start_url: `/forestry-blog`,
         background_color: `#6b37bf`,
         theme_color: `#6b37bf`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
