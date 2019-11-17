@@ -17,6 +17,7 @@ deploy:
   skip_cleanup: true
   keep_history: true
   local_dir: public/
+  github_token: $GITHUB_TOKEN
 
 env:
   - PATH_PREFIX=/forestry-blog
