@@ -1,15 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
+import SEO from './seo'
 import '../css/main.scss'
 
-import favicon from './favicon.png'
+import gatsbyIcon from '../images/gatsby-icon.png'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, favIcon = gatsbyIcon }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -23,22 +23,15 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
+        <SEO
           link={[
             {
               rel: 'shortcut icon',
               type: 'image/png',
-              href: `${favicon}`,
+              href: `${favIcon}`,
             },
           ]}
-        >
-          <html lang="en" />
-        </Helmet>
+        />
         <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <Footer content={data.site.siteMetadata.footer} />
@@ -49,6 +42,8 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  favIcon: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default Layout

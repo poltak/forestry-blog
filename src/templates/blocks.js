@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 // eslint-disable-next-line
 import { Link, graphql } from 'gatsby'
 
@@ -10,20 +9,16 @@ import ThreeCol from '../components/blocks/3col'
 import Feature from '../components/blocks/feature'
 import CTA from '../components/blocks/cta'
 import Hero from '../components/blocks/hero'
+import SEO from '../components/seo'
 
 class BlocksTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = post.excerpt
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <Helmet
-          htmlAttribute={{ lang: 'en' }}
-          meta={[{ name: 'description', content: siteDescription }]}
-          title={`${post.frontmatter.title} | ${siteTitle}`}
-        />
+      <Layout location={this.props.location}>
+        <SEO description={siteDescription} title={post.frontmatter.title} />
         {post.frontmatter.blocks.map(block => {
           switch (block.component) {
             case '3col':
@@ -47,11 +42,6 @@ export default BlocksTemplate
 
 export const pageQuery = graphql`
   query BlockPageBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt

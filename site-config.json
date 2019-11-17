@@ -1,5 +1,7 @@
 {
   "title": "Van's Blog",
   "description": "Hi my name is Van",
-  "footer": "Built with <a href=\"https://forestry.io\" target=\"_blank\">Forestry.io</a>"
+  "footer": "Built with <a href=\"https://forestry.io\" target=\"_blank\">Forestry.io</a>",
+  "author": "Nguyễn Thị Thanh Vân",
+  "lang": "vn"
 }

@@ -7,6 +7,8 @@ module.exports = {
     description: config.description,
     siteUrl: 'https://poltak.github.io/forestry-blog',
     footer: config.footer,
+    author: config.author,
+    lang: config.author,
   },
   plugins: [
     {
